@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/2020-04-24-meme-maker/static/css/main.2fb6ae19.chunk.css",
+    "main.js": "/2020-04-24-meme-maker/static/js/main.a5381f88.chunk.js",
+    "main.js.map": "/2020-04-24-meme-maker/static/js/main.a5381f88.chunk.js.map",
+    "runtime-main.js": "/2020-04-24-meme-maker/static/js/runtime-main.0962680e.js",
+    "runtime-main.js.map": "/2020-04-24-meme-maker/static/js/runtime-main.0962680e.js.map",
+    "static/js/2.07b24181.chunk.js": "/2020-04-24-meme-maker/static/js/2.07b24181.chunk.js",
+    "static/js/2.07b24181.chunk.js.map": "/2020-04-24-meme-maker/static/js/2.07b24181.chunk.js.map",
+    "index.html": "/2020-04-24-meme-maker/index.html",
+    "precache-manifest.51808578bbaffc23587400c1cefbdd6a.js": "/2020-04-24-meme-maker/precache-manifest.51808578bbaffc23587400c1cefbdd6a.js",
+    "service-worker.js": "/2020-04-24-meme-maker/service-worker.js",
+    "static/css/main.2fb6ae19.chunk.css.map": "/2020-04-24-meme-maker/static/css/main.2fb6ae19.chunk.css.map",
+    "static/js/2.07b24181.chunk.js.LICENSE.txt": "/2020-04-24-meme-maker/static/js/2.07b24181.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0962680e.js",
+    "static/js/2.07b24181.chunk.js",
+    "static/css/main.2fb6ae19.chunk.css",
+    "static/js/main.a5381f88.chunk.js"
+  ]
+}
