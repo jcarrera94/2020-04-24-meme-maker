@@ -1,68 +1,60 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Today's Objective: Meme maker!
 
-## Available Scripts
+## Prize
 
-In the project directory, you can run:
+$25 CAD Amazon gift card + bragging rights.
 
-### `npm start`
+Tip: Read the [General Information Document](General%20Information.md) for more info on how to get started and submit.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Objective
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Today's objective is to create a meme maker with captions in the browser.
 
-### `npm test`
+There are tons of meme makers online, with a variety of features. Here are a few:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* https://imgflip.com/memegenerator
+* https://www.kapwing.com/meme-maker
+* https://makeameme.org/
 
-### `npm run build`
+Today we will build a meme-maker that is browser-only and does not require any backend server.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Requirements
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Using `svg` elements, create a meme maker that can be converted to an image in-browser. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The meme maker should let you type text on an image and then convert it to a PNG image. The user can then copy or save the image off the page directly using their right-click menu.
 
-### `npm run eject`
+### What is SVG?
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+SVG elements in the browser are used extensively by rich media applications. The SVG markup language is intended to be human as well as computer readable, i.e. it is NOT a binary format. 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+You've already used svg inadvertently if you have ever imported an SVG image. For example, Create React App's logo is an SVG image.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Suggested pattern that you might want to use
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Step 1: The meme builder should be built using SVG elements. (Take your time learning this from [MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/image), it's fun and useful)
+Step 2: Make sure you wrap your SVG with a contenteditable div.
+Step 3: Convert the SVG to Canvas, where you can then download the canvas.
 
-## Learn More
+This fiddle is a good example: https://jsfiddle.net/pcLrydh5/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Suggested Libraries
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+No suggested libraries this time. The project is very simple with `svg` and can be completed with vanilla JS.
 
-### Code Splitting
+## Frameworks:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+We recommend you keep it simple and use what you already know. It is completely possible to build this using vanilla JS. You can use React, Vue, Angular if you wish.
 
-### Analyzing the Bundle Size
+## Technology Restrictions
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+* Your project must use JavaScript in a browser environment.
 
-### Making a Progressive Web App
+There are no other restrictions.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## Tips for success:
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+1. The project is intentionally simple so you can focus on code quality.
+1. The requirements are intentionally minimalistic so you can get as creative as you'd like.
+1. You get a LOT of time for code review comments. So you can win even if you feel your project isn't great, simply on the strength of your code review comments!
+1. Keep in mind, 33% of your score is based on aesthetic appeal! So try to make it look nice.
